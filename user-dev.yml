@@ -1,0 +1,9 @@
+server:
+  port: 8764
+
+eureka:
+  instance:
+    prefer-ip-address: true   #访问路径现实IP地址
+    instance-id: http://localhost:6001/eureka/
+
+description: user-dev自定义111配置

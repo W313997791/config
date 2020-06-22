@@ -1,0 +1,8 @@
+server:
+  port: 8764
+
+eureka:
+  instance:
+    prefer-ip-address: true   #访问路径现实IP地址
+
+description: user-prod自定义配置
