@@ -7,6 +7,6 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${server.port}
   client:
     service-url:
-      defaultZone: http://localhost:6001/eureka/
+      defaultZone: http://eureka7001.com:6001/eureka/,http://eureka7002.com:6002/eureka/,http://eureka7003.com:6003/eureka/
 
 description: producer-prod的自定义配置
