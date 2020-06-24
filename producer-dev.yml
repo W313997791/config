@@ -8,4 +8,4 @@ eureka:
     service-url:
       defaultZone: http://eureka1:6001/eureka/,http://eureka2:6002/eureka/,http://eureka3:6003/eureka/
 
-description: producer-dev自定义配置
+description: producer-dev的自定义配置
